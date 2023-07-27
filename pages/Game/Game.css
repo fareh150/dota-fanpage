@@ -1,0 +1,13 @@
+#gamebackbox {
+    height: 89vh;
+    width: 100vw;
+    position: relative;
+    display: inline-block;
+}
+
+#gamebackbox img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

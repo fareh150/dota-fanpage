@@ -2,7 +2,9 @@ import "./Game.css";
 
 const template = () => {
   return `
-      <h2>Aqui estoy Game</h2>
+      <div id="gamebackbox">
+        <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/blog/default_header.jpg" alt="game img">
+      </div>
       `;
 };
 
