@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/backgrounds/greyfade.jpg");
+    background-size: 100% auto;
+}
+
+#titlehero {
+    background-color: rgba(245, 245, 245, 0.068);
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 15px;
+}
+
+#titlehero h2 {
+    color: var(--letranav);
+    text-transform: uppercase;
+    font-family: var(--famtext1);
+    font-size: 40px;
+    text-align: center;
+}
+@media only screen and (min-width: 40em){
+    #titlehero{
+        height: 40vh;  
+    }
+
+    #titlehero h2{
+        font-size: 50px;
+    }
+
+    #titlehero p{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    #titlehero p {
+        max-width: 60%;
+    }
+}
+
+#titlehero p {
+    color: var(--subtext);
+    text-align: center;
+    font-size: 17px;
+}

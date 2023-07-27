@@ -3,7 +3,7 @@
   --backcolor: rgb(19, 19, 19);
   --backmenuicons:rgba(52, 52, 52, 0.775);
   --subtext: rgba(191, 191, 191, 0.867);
-  --famtext1: font-family: 'Noto Serif Vithkuqi', serif;
+  --famtext1:'Noto Serif Vithkuqi', serif;
 }
 
 * {

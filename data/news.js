@@ -8,7 +8,7 @@
     }
  */
 
-const news = [
+export const news = [
   {
     img: "https://clan.cloudflare.steamstatic.com/images/3703047/7d8f56876eaacdbf295b328270ce12f27487e611.jpg",
     date: "8 de julio de 2023",

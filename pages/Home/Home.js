@@ -1,4 +1,5 @@
 import "./Home.css";
+import printNewsmain from "../../utils/printrandomnews";
 
 const template = () => {
   return `
@@ -32,54 +33,14 @@ const template = () => {
           <a href="/news" class="linkado">View all →</a>
         </div>
         <div id="randomnews">
-          <div class="fondonew" style="
-              background-image: url('https://clan.cloudflare.steamstatic.com/images/3703047/fe0bb9d256a1c7dbd1a6cfb46ecbf113e727ce4a.png');
-            ">
-            <section
-            class="randomnewsclass">
-            <p class="datenews">27 de julio de 2023</p>
-            <h2 class="titlenews">Between the Lanes: Unbreaking A Bomb</h2>
-            <p class="datanews">
-              Introducing Between the Lanes, a new blog feature where we let
-              members of our development team walk through some of the
-              challenges, bugfixes, and occasional happy accidents we...
-            </p>
-          </section>
-          </div>
-          <div class="fondonew" style="
-              background-image: url('https://clan.cloudflare.steamstatic.com/images/3703047/fe0bb9d256a1c7dbd1a6cfb46ecbf113e727ce4a.png');
-            ">
-            <section
-            class="randomnewsclass">
-            <p class="datenews">27 de julio de 2023</p>
-            <h2 class="titlenews">Between the Lanes: Unbreaking A Bomb</h2>
-            <p class="datanews">
-              Introducing Between the Lanes, a new blog feature where we let
-              members of our development team walk through some of the
-              challenges, bugfixes, and occasional happy accidents we...
-            </p>
-          </section>
-          </div><div class="fondonew" style="
-              background-image: url('https://clan.cloudflare.steamstatic.com/images/3703047/fe0bb9d256a1c7dbd1a6cfb46ecbf113e727ce4a.png');
-            ">
-            <section
-            class="randomnewsclass">
-            <p class="datenews">27 de julio de 2023</p>
-            <h2 class="titlenews">Between the Lanes: Unbreaking A Bomb</h2>
-            <p class="datanews">
-              Introducing Between the Lanes, a new blog feature where we let
-              members of our development team walk through some of the
-              challenges, bugfixes, and occasional happy accidents we...
-            </p>
-          </section>
-          </div>
-        </div>
+          
       </section>
     `;
 };
 
 const Home = () => {
   document.querySelector("main").innerHTML = template();
+  printNewsmain();
 };
 
 export default Home;
