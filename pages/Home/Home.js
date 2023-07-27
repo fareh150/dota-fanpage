@@ -32,7 +32,7 @@ const template = () => {
           <p>random news</p>
           <a href="/news" class="linkado">View all →</a>
         </div>
-        <div id="randomnews">
+        <div class="randomnews">
           
       </section>
     `;
