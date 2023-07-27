@@ -1,0 +1,34 @@
+#footbox {
+    border: 2px solid red;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#footbox #imgbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+#valveicon {
+    padding-right: 20px;
+}
+
+#footbox #imgbox img {
+    height: 30px;
+    width: auto;
+}
+
+#footbox p {
+    color: var(--letranav);
+    text-align: center;
+    padding: 10px 10%;
+    max-width: 800px;
+}

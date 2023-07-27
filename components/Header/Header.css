@@ -1,0 +1,113 @@
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 9vh;
+    width: 100%;
+    padding: 20px;
+}
+
+header nav #links {
+    display: none;
+}
+
+header nav #links ul li a:hover{
+    filter: brightness(1.75);
+}
+
+@media only screen and (min-width: 40em) {
+    header nav{
+        justify-content: flex-start;
+    }
+
+    header nav #menu {
+        display: none;
+    }
+
+    header nav #links {
+        display:flex;
+    }
+
+    header nav #links ul {
+        display: flex;
+        gap: 25px;
+    }
+
+    header nav #links ul li {
+        color: var(--letranav);
+        font-size: 40px;
+    }
+}
+
+#letra {
+    display: none;
+}
+
+@media only screen and (min-width: 900px) {
+    #icon {
+        display: none;
+    }
+    
+    #letra {
+        display: flex;
+        height: 40px;
+        margin-right: 20px;
+    }
+
+    header nav #links{
+        margin-left: 30px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 40em){
+    header nav .mactive{
+        display: block !important;
+        position: absolute;
+        background-color: var(--backcolor);
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 300px;
+        padding: 100px 20px;
+        
+    }
+    
+    header nav #links .ulactive {
+        
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header nav #links ul .liactive {
+        background-color: var(--backmenuicons);
+        padding: 15px;
+        color: var(--letranav);
+        border-bottom:1px solid var(--letranav);
+    }
+}
+
+
+
+
+header nav #icon {
+    height: 50px;
+    width: auto;
+}
+
+header nav #menupic {
+    height: 50px;
+    width: auto;
+    filter:invert(90%);
+}
+
