@@ -39,7 +39,6 @@ document.addEventListener("DOMContentLoaded", router);
 
 export const addLinkListeners = () => {
   const navLinks = document.querySelectorAll(".linkado");
-  console.log(navLinks);
 
   navLinks.forEach((link) => {
     link.addEventListener("click", (ev) => {

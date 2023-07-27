@@ -1,7 +1,6 @@
 export const newsPrinterMain = (objeto) => {
   const randomnews = document.querySelector("#randomnews");
-  randomnews.innerHTML += `
-    <div class="fondonew" style="
+  randomnews.innerHTML += `<div class="fondonew" style="
               background-image: url('${objeto.img}');
             ">
             <section
@@ -12,5 +11,4 @@ export const newsPrinterMain = (objeto) => {
             </section>
     </div>
     `;
-  console.log(objeto);
 };

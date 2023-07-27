@@ -1,6 +1,6 @@
 body {
     background-color: var(--backcolor);
-    background-image: none;
+    background-image: none !important;
   }
 
 #sec1video {
