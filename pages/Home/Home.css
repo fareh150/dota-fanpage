@@ -253,6 +253,7 @@ body {
     gap: 20px;
     padding: 20px;
     animation: entrance 2s;
+    animation-delay: 2s;
 }
 
 .letramap .join {
@@ -260,6 +261,7 @@ body {
     font-size: 70px;
     text-transform: uppercase;
     animation: entrance 2s;
+    animation-delay: 2s;
 }
 
 .letramap .battle {
@@ -267,12 +269,14 @@ body {
     font-size: 90px;
     text-transform: uppercase;
     animation: entrance 2s;
+    animation-delay: 2s;
 }
 .letramap .lineadecoracion {
     border: 1px solid orangered;
     height: 1px;
     width: 70px;
     animation: entrance 2s;
+    animation-delay: 2s;
 }
 .letramap .textmap {
     max-width: 80%;
@@ -280,6 +284,7 @@ body {
     color: var(--subtext);
     font-size: 35px;
     animation: entrance 2s;
+    animation-delay: 2s;
 }
 .letramap a {
     border: 1px solid var(--subtext);
@@ -288,6 +293,7 @@ body {
     color: var(--letranav);
     text-transform: uppercase;
     animation: entrance 2s linear;
+    animation-delay: 2s;
 }
 
 @keyframes entrance {
