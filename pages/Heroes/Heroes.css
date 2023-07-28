@@ -76,7 +76,7 @@ body {
     flex-direction: column;
     justify-content: end;
     align-items: flex-start;
-    transition: all 0.7s ease-in-out;
+    transition: all 0.2s ease-in-out;
     background-position: center;
     background-size: 110%;
 }
