@@ -35,6 +35,19 @@ const template = () => {
         <div class="randomnews">
           
       </section>
+
+      <section id="joinmain">
+          <div id="gridimg">
+            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react//home/radiant_dire5.jpg" alt="game map image">
+          </div>
+          <div class="letramap">
+            <p class="join">join the</p>
+            <p class="battle">Battle of the Ancients</p>
+            <div class="lineadecoracion"></div>
+            <p class="textmap">Every day, millions of players worldwide enter the battle as one of over a hundred Dota Heroes in a 5v5 team clash. Dota is the deepest multi-player action RTS game ever made and there's always a new strategy or tactic to discover. It's completely free to play and always will be – start defending your ancient now.</p>
+            <a href="/news" class="linkado">see what's new</a>
+          </div>
+      </section>
     `;
 };
 
