@@ -222,6 +222,7 @@ body {
 }
 
 #joinmain {
+    border: 1px solid red;
     height: 100vh;
     width: 100%;
 }
@@ -250,23 +251,23 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    gap: 20px;
-    padding: 20px;
+    gap: 40px;
+    padding: 50px 20px;
     animation: entrance 2s;
     animation-delay: 2s;
 }
 
 .letramap .join {
     color: var(--subtext);
-    font-size: 70px;
+    font-size: 30px;
     text-transform: uppercase;
     animation: entrance 2s;
-    animation-delay: 2s;
 }
 
 .letramap .battle {
     color: var(--letranav);
-    font-size: 90px;
+    font-size: 40px;
+    text-align: center;
     text-transform: uppercase;
     animation: entrance 2s;
     animation-delay: 2s;
@@ -282,7 +283,7 @@ body {
     max-width: 80%;
     text-align: center;
     color: var(--subtext);
-    font-size: 35px;
+    font-size: 20px;
     animation: entrance 2s;
     animation-delay: 2s;
 }
@@ -294,6 +295,27 @@ body {
     text-transform: uppercase;
     animation: entrance 2s linear;
     animation-delay: 2s;
+    font-size: 10px;
+}@media only screen and (min-width: 640px){
+    .letramap {
+        padding: 60px 20px;
+    }
+
+    .letramap .join {
+        font-size: 40px;
+    }
+
+    .letramap .battle{
+        font-size: 50px;
+    }
+
+    .letramap .textmap {
+        font-size: 30px;
+    }
+
+    .letramap a{
+        font-size: 20px;
+    }
 }
 
 @keyframes entrance {
