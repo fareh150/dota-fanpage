@@ -10,7 +10,8 @@ const template = () => {
     
       <section id="comentvid">
         <div id="comentposition">
-            <p id="text">"A modern multiplayer masterpiece."</p>
+            <p id="text">"A modern multiplayer masterpiece."
+            </p>
             <span id="autor">- Destructoid</span>
             <div id="steamplace"> 
               <a href="https://store.steampowered.com/app/570/Dota_2/" target="_blank" id="steamlink">
