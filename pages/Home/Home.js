@@ -5,7 +5,7 @@ const template = () => {
   return `
     <section id="sec1video">
         <div id="vidabsolut">
-            <video src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/homepage/dota_montage_webm.webm" autoplay preload="auto" loop playsinline></video>
+            <video src="https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/homepage/dota_montage_webm.webm" autoplay=1 preload="auto" loop playsinline></video>
         </div>
     
       <section id="comentvid">
